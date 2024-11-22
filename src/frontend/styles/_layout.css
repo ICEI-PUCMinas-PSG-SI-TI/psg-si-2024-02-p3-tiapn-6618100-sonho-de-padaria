@@ -1,0 +1,80 @@
+.painel-container {
+    display: flex;
+    height: calc(100vh - 60px);
+  }
+  
+  .menu-lateral {
+    background-color: #ffb900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px 0.5px rgba(0, 0, 0, 0.25);
+    width: 45px;
+    overflow: hidden;
+    transition: width 0.3s ease;
+  }
+  
+  .menu-lateral ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-lateral li {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  .menu-lateral li svg {
+    width: 23px;
+    color: rgb(63, 42, 7);
+  }
+  
+  .menu-lateral li:hover {
+    background-color: #fde6a7;
+  }
+  
+  .painel-conteudo {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fffdef;
+    margin: 5px 5px 5px 0px;
+    border-radius: 8px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .painel-container {
+      flex-direction: column;
+      height: 100%;
+    }
+    .menu-lateral {
+      width: 90%;
+      display: flex;
+    }
+    .painel-conteudo {
+      margin: 5px 5px 50px 5px;
+    }
+  }
+  
+  .menu-lateral.aberto {
+    width: 210px;
+  }
+  
+  .menu-lateral li span {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  .menu-lateral.aberto li span {
+    opacity: 1;
+  }
+  

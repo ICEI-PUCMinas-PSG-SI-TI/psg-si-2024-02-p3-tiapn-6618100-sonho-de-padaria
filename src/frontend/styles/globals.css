@@ -1,79 +1,31 @@
-.painel-container {
-  display: flex;
-  height: calc(100vh - 60px);
-}
-
-.menu-lateral {
-  background-color: #ffb900;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-  margin: 5px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 2px 0.5px rgba(0, 0, 0, 0.25);
-  width: 45px;
-  overflow: hidden;
-  transition: width 0.3s ease;
-}
-
-.menu-lateral ul {
-  list-style: none;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
   padding: 0;
+  height: calc(100vh -5px);
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  background-color: rgb(255, 255, 255);
 }
 
-.menu-lateral li {
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+/* header */
+.header-div {
+  background-color: #FFB900;
+  height: 60px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
-  gap: 5px;
+  padding-left: 20px;
+  gap: 10px;
 }
-.menu-lateral li svg {
-  width: 23px;
-  color: rgb(63, 42, 7);
+.logo-header {
+  height: 100%;
+  width: 40px;
 }
-
-.menu-lateral li:hover {
-  background-color: #fde6a7;
-}
-
-.painel-conteudo {
-  flex-grow: 1;
-  padding: 20px;
-  background-color: #fffdef;
-  margin: 5px 5px 5px 0px;
-  border-radius: 8px;
+.header-title {
+  font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-  .painel-container {
-    flex-direction: column;
-    height: 100%;
-  }
-  .menu-lateral {
-    width: 90%;
-    display: flex;
-  }
-  .painel-conteudo {
-    margin: 5px 5px 50px 5px;
-  }
-}
-
-.menu-lateral.aberto {
-  width: 210px;
-}
-
-.menu-lateral li span {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  white-space: nowrap;
-}
-
-.menu-lateral.aberto li span {
-  opacity: 1;
+.title-filter{
+  display: flex;
 }
