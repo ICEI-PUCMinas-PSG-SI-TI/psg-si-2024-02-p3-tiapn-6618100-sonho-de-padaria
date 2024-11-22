@@ -1,0 +1,6 @@
+@sonhopadaria_HostAddress = http://localhost:5242
+
+GET {{sonhopadaria_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
