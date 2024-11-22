@@ -1,0 +1,70 @@
+.form-produto-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-produto-title {
+  text-align: center;
+}
+
+.modal-produto-label-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal-produto-label {
+  font-size: 12px;
+}
+
+.modal-produto-input {
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.modal-produto-submit-button {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px #dadada;
+  color: white;
+  font-weight: 700;
+  background-color: #ffb900;
+  width: 80px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal-produto-submit-button:hover {
+  background-color: #dda200;
+}
+
+.modal-input-section-1 {
+  display: flex;
+  gap: 10px;
+}
+.modal-input-section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #c49a11;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

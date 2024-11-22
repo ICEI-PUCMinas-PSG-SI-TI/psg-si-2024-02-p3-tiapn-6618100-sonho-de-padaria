@@ -1,0 +1,82 @@
+.estoque-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.estoque-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 23px;
+  padding-left: 5px;
+  color: rgb(63, 42, 7);
+}
+.filtros-button-container {
+  display: flex;
+  gap: 20px;
+}
+.filtros-container {
+  display: flex;
+  gap: 10px;
+  background-color: rgba(204, 196, 161, 0.253);
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+.filtros-container input {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px #dadada;
+}
+
+.filtros-container button {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px #dadada;
+  color: white;
+  font-weight: 700;
+  background-color: #ffb900;
+  width: 80px;
+  cursor: pointer;
+}
+
+.filtros-container button:hover {
+  background-color: #dda200;
+}
+.modais-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.modais-buttons-container button {
+  background-color: #258d1c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px #dadada;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modais-buttons-container button:hover {
+  background-color: #185a12;
+}
+
+.row-green {
+  background-color: #cdfccd;
+  color: #2a7f2a;
+}
+
+.row-red {
+  background-color: #ffc6c6;
+  color: #bf2a2a;
+}
+
+.btn-hist-ajust-navg{
+  width: 150px;
+}
