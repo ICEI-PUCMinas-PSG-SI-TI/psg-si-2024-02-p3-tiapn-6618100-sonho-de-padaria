@@ -1,0 +1,71 @@
+.ajuste-btn-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.buttons-ajuste {
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.buttons-ajuste span {
+  font-size: small;
+}
+
+.ajuste-estoque-adicionar,
+.ajuste-estoque-remover {
+  border: solid 1px #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ajuste-estoque-adicionar,
+.ajuste-estoque-remover {
+  color: black;
+  background-color: #ffe2a4;
+}
+
+.ajuste-estoque-adicionar:hover {
+  background-color: rgb(2, 136, 2);
+}
+.ajuste-estoque-remover:hover {
+  background-color: rgb(175, 1, 1);
+}
+
+.ajuste-estoque-adicionar.selected {
+  background-color: rgb(43, 184, 0);
+  color: white;
+  transform: scale(1.01);
+}
+.ajuste-estoque-remover.selected {
+  background-color: rgb(192, 10, 4);
+  color: white;
+  transform: scale(1.01);
+}
+
+.btn-ajuste-estoque {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.input-ajuste-erro{
+  display: flex;
+  flex-direction: column;
+}
+.input-error {
+  border: 1px solid red;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+}
