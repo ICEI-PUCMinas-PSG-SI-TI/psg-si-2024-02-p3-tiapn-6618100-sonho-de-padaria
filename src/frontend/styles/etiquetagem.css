@@ -1,0 +1,39 @@
+.etiqueta-forms {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 3px
+}
+.etiqueta-forms label{
+    font-size: 13px;
+    margin-left: 5px;
+
+}
+.modal-produto-input {
+}
+.div-etiqueta-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    gap: 10px
+}
+.etiqueta-forms-button-sl {
+    background-color: #258D1C ;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid 1px #dadada;
+    font-weight: bold;
+    cursor: pointer;
+}
+.etiqueta-forms-button-cl {
+    background-color: #b42d04 ;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid 1px #dadada;
+    font-weight: bold;
+    cursor: pointer;
+}
