@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using sonhopadaria.Models;
 using sonhopadaria.Data;
@@ -35,6 +35,22 @@ namespace sonhopadaria.Controllers
             }
 
             return vendaProduto;
+        }
+
+        // GET: api/VendasProdutos/byVenda/{vendaId}
+        [HttpGet("byVenda/{vendaId}")]
+        public async Task<ActionResult<IEnumerable<TB_VENDAS_PRODUTOS>>> GetProdutosByVendaId(int vendaId)
+        {
+            var produtos = await _context.Set<TB_VENDAS_PRODUTOS>()
+                                         .Where(p => p.venda_id == vendaId)
+                                         .ToListAsync();
+
+            if (!produtos.Any())
+            {
+                return NotFound($"Nenhum produto encontrado para a venda com ID {vendaId}.");
+            }
+
+            return produtos;
         }
 
         // POST: api/VendasProdutos
