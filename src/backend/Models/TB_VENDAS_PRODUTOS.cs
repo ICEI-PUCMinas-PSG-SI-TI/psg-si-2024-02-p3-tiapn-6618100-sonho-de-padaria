@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace sonhopadaria.Models
 {
@@ -11,6 +11,9 @@ namespace sonhopadaria.Models
         public int produto_id { get; set; }
 
         [Required]
+        public string produto { get; set; }
+
+        [Required]
         public int venda_id { get; set; }
 
         [Required]
@@ -18,8 +21,5 @@ namespace sonhopadaria.Models
 
         [Required]
         public int quantidade { get; set; }
-
-        [Required]
-        public int etiqueta_id { get; set; }
     }
 }
