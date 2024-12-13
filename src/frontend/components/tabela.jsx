@@ -11,7 +11,9 @@ import EditIcon from "@mui/icons-material/Edit";
 import Inventory2Icon from "@mui/icons-material/Inventory2";
 import PrintIcon from "@mui/icons-material/Print";
 import DeleteIcon from "@mui/icons-material/Delete";
+import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
 import { Tooltip, CircularProgress, Box } from "@mui/material";
+import { Description } from "@mui/icons-material";
 
 const CustomTabela = ({
   colunas,
@@ -26,6 +28,10 @@ const CustomTabela = ({
   hasActions,
   rowClassName,
   onDeleteProduct,
+  isPedido,
+  isVenda,
+  onVerVenda,
+  onRealizarPagamento,
 }) => {
   return (
     <TableContainer
@@ -104,9 +110,14 @@ const CustomTabela = ({
                     key={colIndex}
                     sx={{ padding: "6px 16px", textAlign: "center" }}
                   >
-                    {row[coluna.field]}
+                    {coluna.field === "status_venda"
+                      ? row[coluna.field] === false
+                        ? "Pendente"
+                        : "Pago"
+                      : row[coluna.field]}
                   </TableCell>
                 ))}
+
                 {hasActions && (
                   <TableCell sx={{ padding: "6px 16px", textAlign: "center" }}>
                     {isAjuste && (
@@ -163,6 +174,44 @@ const CustomTabela = ({
                             sx={{ color: "#bd1c00" }}
                           >
                             <DeleteIcon />
+                          </IconButton>
+                        </Tooltip>
+                      </>
+                    )}
+                    {isPedido && (
+                      <>
+                        <Tooltip title="Deletar">
+                          <IconButton
+                            color="primary"
+                            aria-label="deletar"
+                            onClick={() => onDeleteProduct(row.produto_id)}
+                            sx={{ color: "#bd1c00" }}
+                          >
+                            <DeleteIcon />
+                          </IconButton>
+                        </Tooltip>
+                      </>
+                    )}
+                    {isVenda && (
+                      <>
+                        <Tooltip title="Ver detalhes da venda">
+                          <IconButton
+                            color="primary"
+                            aria-label="imprimir"
+                            onClick={() => onVerVenda(row.venda_id)}
+                            sx={{ color: "#FFB900" }}
+                          >
+                            <Description />
+                          </IconButton>
+                        </Tooltip>
+                        <Tooltip title="Realizar Pagamento">
+                          <IconButton
+                            color="primary"
+                            aria-label="deletar"
+                            onClick={() => onRealizarPagamento(row)}
+                            sx={{ color: "#1a6736" }}
+                          >
+                            <CurrencyExchangeIcon />
                           </IconButton>
                         </Tooltip>
                       </>
