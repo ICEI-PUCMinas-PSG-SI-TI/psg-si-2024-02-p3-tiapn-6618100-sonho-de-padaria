@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 namespace sonhopadaria.Models
 {
@@ -15,5 +15,8 @@ namespace sonhopadaria.Models
 
         [Required]
         public decimal total_venda { get; set; }
+
+        [Required]
+        public bool status_venda { get; set; }
     }
 }
