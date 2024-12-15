@@ -1,27 +1,32 @@
-# TÍTULO DO PROJETO
+# SONHO DE PADARIA
 
-`CURSO`
+`SISTEMAS DE INFORMAÇÃO`
 
-`DISCIPLINA`
+`TRABALHO INTERDISCIPLINAR: APLICAÇÕES PARA PROCESSOS DE NEGÓCIOS`
 
-`SEMESTRE`
+`3° PERÍODO`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+_**Resumo**. O trabalho tem como objetivo o desenvolvimento de uma aplicação tecnológica para processos de uma padaria. O intuito principal é desenvolver capacidades de desenvolvimento full stack, bem como apresentar uma solução real e eficaz para atender a demanda tecnológica do setor alimentício, em especial, uma padaria._
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alan Torres de Sá
+* Daniel Almeida Lopes
+* David Felix Ferreira Cruz
+* João Álvaro Cardoso de Oliveira
+* Luana Mateus de Almeida
+* Luisa Sapori
 
 ## Orientador
 
-* Nome completo do professor 1
+* Michelle Hanne Soares de Andrade
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para utilizar:
+No frontend: Abra o terminal, digite "cd/src" e "cd/frontend", rode o comando npm run dev. Logo após o programa abrirá em uma aba do seu navegador.
+No backend: No console do gerenciador de pacotes do nuget, digite o comando "Add-Migration Update(nome)", digite Update-Database, rode o programa.
+Para funcionar, ambos os códigos devem estar rodando.
 
 # Documentação
 
