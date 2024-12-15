@@ -19,7 +19,7 @@ A automatização de processos é um fator crítico para o sucesso de negócios 
 
 ## Público-Alvo
 
-Gerente da Padaria: Responsável por supervisionar todas as operações, tomar decisões estratégicas e gerenciar o estoque e as finanças.
-Atendentes: Funcionários que lidam diretamente com os clientes, processam pedidos, e fazem a mediação com a cozinha e a produção.
-Padeiros e Confeiteiros: Responsáveis pela produção de pães, bolos e outros produtos.
-Clientes: Os consumidores que compram produtos e utilizam os serviços da padaria.
+ - Gerente da Padaria: Responsável por supervisionar todas as operações, tomar decisões estratégicas e gerenciar o estoque e as finanças.
+ - Atendentes: Funcionários que lidam diretamente com os clientes, processam pedidos, e fazem a mediação com a cozinha e a produção.
+ - Padeiros e Confeiteiros: Responsáveis pela produção de pães, bolos e outros produtos.
+ - Clientes: Os consumidores que compram produtos e utilizam os serviços da padaria.
