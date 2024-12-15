@@ -23,7 +23,6 @@ _**Resumo**. O trabalho tem como objetivo o desenvolvimento de uma aplicação t
 
 ## Instruções de utilização
 
-Para utilizar:
 No frontend: Abra o terminal, digite "cd/src" e "cd/frontend", rode o comando npm run dev. Logo após o programa abrirá em uma aba do seu navegador.
 No backend: No console do gerenciador de pacotes do nuget, digite o comando "Add-Migration Update(nome)", digite Update-Database, rode o programa.
 Para funcionar, ambos os códigos devem estar rodando.
