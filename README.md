@@ -49,10 +49,5 @@ Para funcionar, ambos os códigos devem estar rodando.
 
 ## Histórico de versões
 
-* 0.1.1
-    * CHANGE: Atualização das documentações. Código permaneceu inalterado.
-* 0.1.0
-    * Implementação da funcionalidade X pertencente ao processo P.
-* 0.0.1
-    * Trabalhando na modelagem do processo de negócio.
+As versões podem ser verificadas nos commits do repositório.
 
