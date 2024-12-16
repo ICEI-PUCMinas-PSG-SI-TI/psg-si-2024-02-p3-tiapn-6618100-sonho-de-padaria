@@ -22,6 +22,7 @@
 ![image](https://github.com/user-attachments/assets/b68a4e7e-6906-4882-b6a9-ad5eb65bbaf1)
 
  - Telas do processo de etiquetagem:
+
 ![image](https://github.com/user-attachments/assets/9be952a3-d7b5-401c-9b3d-3b1ceda52c35)
 
 ### 4.2. Tecnologias
