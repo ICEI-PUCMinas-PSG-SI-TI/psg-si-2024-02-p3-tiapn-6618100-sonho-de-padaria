@@ -18,6 +18,7 @@
  - Telas de vendas:
 
 ![image](https://github.com/user-attachments/assets/828eeec3-04b9-4385-9c5e-f804e7029d58)
+
 ![image](https://github.com/user-attachments/assets/b68a4e7e-6906-4882-b6a9-ad5eb65bbaf1)
 
  - Telas do processo de etiquetagem:
