@@ -44,7 +44,7 @@ Para funcionar, ambos os códigos devem estar rodando.
 
 # Apresentação
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+Link da apresentação no Youtube: https://youtu.be/BV8bqTWyUjQ
 
 
 ## Histórico de versões
